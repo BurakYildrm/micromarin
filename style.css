@@ -95,7 +95,6 @@ body {
 	margin: 5px 0px;
 	border-radius: 8px;
 	cursor: pointer;
-	/* border: 1px solid black; */
 }
 
 .menu-item > span {
@@ -260,7 +259,6 @@ body {
 	border: 1px solid rgb(12, 132, 9);
 	border-radius: 6px;
 	padding: 7px 16px 7px 8px;
-	/* display: flex; */
 	gap: 0px 6px;
 	align-items: center;
 	display: inline-flex;
@@ -302,7 +300,6 @@ body {
 .table-tabs-list {
 	display: flex;
 	height: 100%;
-	/* align-items: center; */
 	gap: 0px 22px;
 }
 
@@ -390,7 +387,6 @@ body {
 .table-sort-container {
 	display: flex;
 	height: 38px;
-	/* align-items: center; */
 }
 
 .table-sort-item {
@@ -454,38 +450,6 @@ body {
 	border-radius: 4px;
 	gap: 0px 4px;
 }
-
-/* table {
-	width: 100%;
-	border-collapse: collapse;
-} */
-
-/* thead > tr {
-	display: flex;
-	width: 100%;
-} */
-
-/* th {
-	--content-alignment: flex-start;
-	text-transform: capitalize;
-	color: rgb(82, 83, 85);
-	font-size: 14px;
-	font-weight: 500;
-	padding: 0px 20px;
-	height: 38px;
-	display: flex;
-	align-items: center;
-	justify-content: var(--content-alignment);
-	border-bottom: 1px solid rgb(237, 237, 240);
-} */
-
-/* th:first-of-type {
-	flex: 1;
-} */
-
-/* th:not(:last-of-type) {
-	border-right: 1px solid rgb(218, 218, 222);
-} */
 
 .table-inner-container {
 	flex: 1;
