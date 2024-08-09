@@ -1,0 +1,30 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path id="Vector" d="M21.37 5.75C21.72 5.89 22 6.31 22 6.67L22 10C22 10.55 21.55 11 21 11L3 11C2.45 11 2 10.55 2 10L2 6.67C2 6.31 2.28 5.89 2.63 5.75L11.63 2.15C11.83 2.07 12.17 2.07 12.37 2.15L21.37 5.75Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<path id="Vector" d="M2 22L2 19C2 18.45 2.45 18 3 18L21 18C21.55 18 22 18.45 22 19L22 22L2 22Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	<g opacity="0.400000">
+		<path id="Vector" d="M4 18L4 11" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+	<g opacity="0.400000">
+		<path id="Vector" d="M8 18L8 11" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+	<g opacity="0.400000">
+		<path id="Vector" d="M12 18L12 11" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+	<g opacity="0.400000">
+		<path id="Vector" d="M16 18L16 11" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+	<g opacity="0.400000">
+		<path id="Vector" d="M20 18L20 11" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+	<path id="Vector" d="M1 22L23 22" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	<g opacity="0.400000">
+		<path id="Vector" d="M12 8.5C11.17 8.5 10.5 7.82 10.5 7C10.5 6.17 11.17 5.5 12 5.5C12.82 5.5 13.5 6.17 13.5 7C13.5 7.82 12.82 8.5 12 8.5Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	</g>
+	<g opacity="0.000000">
+		<path id="Vector" d="M0 0L24 0L24 24L0 24L0 0ZM1 23L1 1L23 1L23 23L1 23Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

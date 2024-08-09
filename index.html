@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" type="image/png" href="assets/favicon.png" />
+		<script src="index.js" defer></script>
+		<script src="PaginationSelector.js" defer></script>
+		<title>micromarin</title>
+	</head>
+	<body class="sidebar-grid-layout">
+		<nav class="sidebar-container">
+			<div class="brand-container">
+				<div class="inner-brand-container">
+					<img
+						src="assets/brand-logo.svg"
+						alt="micromarin brand logo" />
+					<img
+						src="assets/brand-name.svg"
+						alt="micromarin brand name" />
+				</div>
+			</div>
+			<div class="menu-container"></div>
+		</nav>
+		<main class="navbar-grid-layout">
+			<nav class="navbar-container">
+				<div>
+					<div class="finance-container">
+						<img src="assets/wanchain.svg" alt="wanchain icon" />
+						<span>Finance</span>
+					</div>
+				</div>
+				<button
+					type="button"
+					class="no-style-button icon-container"
+					style="--icon-padding: 15px 13px">
+					<img
+						src="assets/application-button.svg"
+						alt="application button icon" />
+				</button>
+				<div class="navbar-seperator"></div>
+				<div style="display: flex">
+					<button
+						type="button"
+						class="no-style-button icon-container"
+						style="--icon-padding: 15px">
+						<img src="assets/message.svg" alt="message icon" />
+					</button>
+					<button
+						type="button"
+						class="no-style-button icon-container"
+						style="--icon-padding: 15px">
+						<div class="badge" data-badge="3">
+							<img
+								src="assets/notification-bing.svg"
+								alt="notification icon" />
+						</div>
+					</button>
+				</div>
+				<div class="navbar-seperator"></div>
+				<div class="user-container">
+					<div class="user-banner">
+						<span>öu</span>
+					</div>
+					<div class="user-details">
+						<p class="user-name">Ömer Uçak</p>
+						<p class="user-company">Micromarin Yazılım A.Ş.</p>
+					</div>
+					<button type="button" class="no-style-button">
+						<img
+							src="assets/arrow-down.svg"
+							alt="arrow down icon" />
+					</button>
+				</div>
+			</nav>
+			<div class="main-container">
+				<div class="main-header-container">
+					<div class="page-info-container">
+						<img
+							src="assets/receipt-search-down-colored.svg"
+							alt="receipt search down icon"
+							class="page-icon" />
+						<div
+							style="
+								display: flex;
+								flex-direction: column;
+								gap: 5px 0px;
+							">
+							<p class="page-title">Invoices</p>
+							<p class="page-subtitle">
+								120+ Items, sorted by Vessel
+							</p>
+						</div>
+					</div>
+					<div class="actions-container">
+						<button
+							type="button"
+							class="no-style-button invoice-button">
+							<img src="assets/add.svg" alt="add icon" />
+							<span class="invoice-button-text">
+								Create Invoice
+							</span>
+						</button>
+						<button
+							type="button"
+							class="no-style-button vertical-more-button">
+							<img
+								src="assets/vertical-dots.svg"
+								alt="vertical dots icon" />
+						</button>
+					</div>
+				</div>
+				<div class="table-container">
+					<div class="table-tabs">
+						<ul class="no-style-list table-tabs-list">
+							<li class="table-tabs-item" data-selected="false">
+								All Invoices
+							</li>
+							<li class="table-tabs-item" data-selected="true">
+								Overdue
+							</li>
+							<li class="table-tabs-item" data-selected="false">
+								In Progress
+							</li>
+							<li class="table-tabs-item" data-selected="false">
+								Waiting
+							</li>
+							<li class="table-tabs-item" data-selected="false">
+								<div
+									class="icon-container"
+									style="--icon-padding: 5px">
+									<img
+										src="assets/horizontal-dots.svg"
+										alt="horizontal more icon" />
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="table-filter-container">
+						<div class="table-filter-options">
+							<button
+								type="button"
+								class="no-style-button filter-button">
+								<img
+									src="assets/setting.svg"
+									alt="setting icon" />
+								filter
+								<div
+									class="badge badge-normalized"
+									data-badge="1"
+									data-badge-size="14px"
+									data-badge-font-size="10px"
+									data-badge-font-weight="500"
+									data-badge-color="rgb(236, 230, 230)"
+									data-badge-bg-color="rgb(188, 46, 27)"></div>
+							</button>
+							<button
+								type="button"
+								class="no-style-button filter-button">
+								MT vessel name
+								<div
+									class="arrow-down-icon colorized-svg"
+									style="
+										--svg-mask-image: url(assets/arrow-down.svg);
+										--svg-color: white;
+									" />
+							</button>
+							<button
+								type="button"
+								class="no-style-button filter-button">
+								status
+								<img
+									src="assets/arrow-down.svg"
+									alt="arrow down icon"
+									class="arrow-down-icon" />
+							</button>
+							<button
+								type="button"
+								class="no-style-button filter-button">
+								priority
+								<img
+									src="assets/arrow-down.svg"
+									alt="arrow down icon"
+									class="arrow-down-icon" />
+							</button>
+							<button
+								type="button"
+								class="no-style-button filter-button">
+								date
+								<img
+									src="assets/arrow-down.svg"
+									alt="arrow down icon"
+									class="arrow-down-icon" />
+							</button>
+						</div>
+						<div class="table-search-container">
+							<div class="search-bar">
+								<img
+									src="assets/search.svg"
+									alt="search icon" />
+								<input
+									type="text"
+									name="search"
+									class="search-bar-input"
+									placeholder="Search" />
+							</div>
+							<button
+								type="button"
+								class="no-style-button search-action-button">
+								<img
+									src="assets/printer.svg"
+									alt="printer icon" />
+								<img
+									src="assets/arrow-down.svg"
+									alt="arrow down icon"
+									class="arrow-down-icon" />
+							</button>
+						</div>
+					</div>
+					<div class="table-inner-container">
+						<div class="table">
+							<div class="table-header">
+								<div class="table-row">
+									<div
+										class="table-header-cell"
+										style="
+											--content-alignment: space-between;
+										">
+										detail
+										<img
+											src="assets/vertical-opposite-arrows.svg"
+											alt="vertical opposite arrows icon" />
+									</div>
+									<div class="table-header-cell">date</div>
+									<div
+										class="table-header-cell"
+										style="--content-alignment: center">
+										status
+									</div>
+									<div
+										class="table-header-cell"
+										style="--content-alignment: flex-end">
+										amount
+									</div>
+									<div class="table-sort-item"></div>
+								</div>
+							</div>
+							<div class="table-content"></div>
+							<div class="table-footer">
+								<p
+									class="pagination-text"
+									data-current-page="1"
+									data-page-size="50"
+									data-total-items="1258"></p>
+								<pagination-selector
+									current-page="2"
+									total-pages="14"></pagination-selector>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
+<!-- @format -->

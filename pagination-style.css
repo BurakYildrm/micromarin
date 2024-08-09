@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.colorized-svg {
+	mask-size: auto;
+	mask-repeat: no-repeat;
+	mask-position: center;
+	background-color: var(--color, rgb(4, 32, 64)) !important;
+	mask-image: var(--mask-image);
+}
+
+.colorized-svg > img {
+	visibility: hidden;
+}
+
+.no-style-button {
+	background: none;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	cursor: pointer;
+	line-height: 1em;
+}
+
+.pagination {
+	display: flex;
+	gap: 0px 3px;
+	font-family: "Inter", sans-serif;
+	line-height: 1;
+}
+
+.pagination-button,
+.pagination-item {
+	border-radius: 6px;
+	background-color: var(--bg-color, transparent);
+}
+
+.pagination-button {
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+.pagination-button:disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.pagination-item {
+	padding: 8px 10px;
+	color: var(--color, rgb(4, 32, 64));
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.pagination-item.active {
+	color: var(--active-color, rgb(236, 245, 255));
+	background-color: var(--active-bg-color, rgb(23, 93, 247));
+}
+
+.page-numbers {
+	display: flex;
+	gap: 0px 3px;
+}
+
+.ellipsis {
+	display: flex;
+	align-items: flex-end;
+}

@@ -1,0 +1,12 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<path id="Vector" d="M12 6.43L12 9.76" stroke="#292929" stroke-opacity="0.800000" stroke-width="1.500000" stroke-linecap="round"/>
+	<path id="Vector" d="M5.36 8.65L5.36 10.75C5.36 11.43 5.08 12.45 4.73 13.03L3.46 15.15C2.68 16.46 3.22 17.92 4.66 18.4C9.44 19.99 14.61 19.99 19.39 18.4C20.74 17.95 21.32 16.37 20.59 15.15L19.32 13.03C18.97 12.45 18.69 11.42 18.69 10.75L18.69 8.65C18.68 4.99 15.68 1.99 12.02 1.99C8.34 1.99 5.36 4.97 5.36 8.65Z" stroke="#292929" stroke-opacity="0.800000" stroke-width="2.000000"/>
+	<path id="Vector" d="M15.33 18.82C15.33 20.65 13.83 22.15 12 22.15C11.09 22.15 10.25 21.77 9.65 21.17C9.05 20.57 8.67 19.73 8.67 18.82" stroke="#292929" stroke-opacity="0.800000" stroke-width="2.000000"/>
+	<g opacity="0.000000">
+		<path id="Vector" d="M0 0L24 0L24 24L0 24L0 0ZM1 23L1 1L23 1L23 23L1 23Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
