@@ -31,6 +31,7 @@ body {
 	grid-template-columns: 270px 1fr;
 	min-height: 100svh;
 	width: 100svw;
+	overscroll-behavior: none;
 }
 
 .navbar-grid-layout {
